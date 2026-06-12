@@ -1,0 +1,15 @@
+# Build output
+/target/
+
+# IDE
+/.idea/
+/.vscode/
+
+# Local environment
+.env
+.env.*
+
+# Logs and crash dumps
+*.log
+hs_err_pid*
+replay_pid*
