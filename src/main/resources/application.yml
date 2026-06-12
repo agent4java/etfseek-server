@@ -5,7 +5,7 @@ agent4j:
   llm:
     provider: deepseek
     base-url: https://api.deepseek.com/v1
-    api-key: ${DEEPSEEK_API_KEY:}
+    api-key: sk-fe788a301d084964a96cf9967fd15a37
     model: deepseek-chat
     temperature: 0.2
     max-tokens: 3000
@@ -13,8 +13,8 @@ agent4j:
 
 zst:
   etf-agent:
-    mock-enabled: true
-    base-url: ${BASE_URL:https://api}
-    authorization: ${AUTHORIZATION:}
+    mock-enabled: false
+    base-url: https://vintex.gtja.com/vintexfund/biz
+    authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXJtaW5hbGluZm8iOiIiLCJ0b2tlblNlcmlhbE5vIjoiMjAxNjAwMDAwMDAwMDAxMTAwMzAwMDA0MDAyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTIxMjEyNjg2ODAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsImV4cCI6MTc4MTI3NTU5MywidXNlckNvZGUiOiI2NjExODEyMSJ9.6K8rlF-vDWXDka3NqQiTgvyxdxSClFeAV4sAGyyeNyg
     cache-ttl-seconds: 300
     audit-enabled: true

@@ -1,0 +1,20 @@
+server:
+  port: 8088
+
+agent4j:
+  llm:
+    provider: deepseek
+    base-url: https://api.deepseek.com/v1
+    api-key: ${DEEPSEEK_API_KEY:}
+    model: deepseek-chat
+    temperature: 0.2
+    max-tokens: 3000
+    timeout-seconds: 60
+
+zst:
+  etf-agent:
+    mock-enabled: true
+    base-url: ${BASE_URL:https://api}
+    authorization: ${AUTHORIZATION:}
+    cache-ttl-seconds: 300
+    audit-enabled: true
